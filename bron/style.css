@@ -1,0 +1,45 @@
+/* @font-face{
+  font-family:'digital-7';
+  src: url('assets/fonts/digital-7.ttf');
+ } */
+
+ @font-face{
+  font-family:'comp';
+  src: url('assets/fonts/Computer says no.ttf');
+ }
+
+
+
+
+
+
+ * {
+  font:comp !important;/* <-- fonts */
+}
+
+
+input{
+  font-family:comp;
+
+}
+
+
+
+a{
+    font-size: 50px;
+}
+.row {
+    display:table;
+  }
+  .col1,.col2 { 
+    display: table-cell;
+    width:300px;
+    veritcal-align:top;
+  }
+  .col1 { 
+    background:red
+  }
+  .col2 { 
+    background:blue;
+    height:200px;
+  }
